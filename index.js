@@ -17,7 +17,7 @@ const options = {
 
 // Configuração do CORS
 app.use(cors({
-  origin: 'https://souwescley.com:3000', // Permite apenas requisições do frontend
+  origin: 'https://souwescley.com', // Permite apenas requisições do frontend
   methods: ['GET', 'POST'], // Métodos permitidos
   credentials: true, // Permite envio de cookies e cabeçalhos de autenticação
 }));
